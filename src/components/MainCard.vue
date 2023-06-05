@@ -107,4 +107,8 @@ p {
 .logo-pics {
   height: 40px;
 }
+.name {
+  font-family: 'Dancing Script', cursive;
+  font-size: 32px;
+}
 </style>
