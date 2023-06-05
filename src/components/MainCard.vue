@@ -4,7 +4,7 @@
     <div class="container-one">
       <div class="profile">
         <img src="../assets/Me.png" class="pic" alt="photo" />
-        <h1>LAOUINI Slim</h1>
+        <h1 class="name">LAOUINI Slim</h1>
         <p>Junior Fullstack Developer</p>
         <p>North of France</p>
         <div class="social-links">
@@ -83,12 +83,12 @@ export default {};
 }
 .container-one {
   background-color: red; /*for sizing test */
-  width: 30%;
+  width: 25%;
   padding: 2.5%;
 }
 .container-two {
-  background-color: greenyellow; /*for sizing test */
-  width: 70%;
+  background-color: greenyellow;  /* for sizing test */
+  width: 75%;
 }
 /* a {
     text-decoration: none;
