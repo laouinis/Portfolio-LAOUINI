@@ -6,7 +6,7 @@
         <img src="../assets/Me.png" class="pic" alt="photo" />
         <h1 class="name">LAOUINI Slim</h1>
         <p>Junior Fullstack Developer</p>
-        <p>North of France</p>
+        <p>Valenciennes, North of France</p>
         <div class="social-links">
           <div class="link">
             <a href="https://github.com/laouinis/" target="_blank">
@@ -49,23 +49,38 @@
       </div>
       <div class="technology-section">
         <h2>Technologies Studied</h2>
-        <img src="../assets/html5.png" class="logo-pics" alt="html5" />
-        <img src="../assets/CSS3.png" class="logo-pics" alt="css3" />
+        <img src="../assets/html5.png" 
+          class="logo-pics" 
+          alt="html5" 
+        />
+        <img src="../assets/CSS3.png" 
+          class="logo-pics" 
+          alt="css3" 
+        />
         <img
           src="../assets/JavaScript-logo.png"
           class="logo-pics"
           alt="javascript"
         />
-        <img src="../assets/NJS.png" class="logo-pics" alt="node js" />
-        <img src="../assets/Angular.png" class="logo-pics" alt="angular" />
-        <img src="../assets/Mango-db.png" class="logo-pics" alt="mangoDB" />
+        <img src="../assets/NJS.png" 
+          class="logo-pics" 
+          alt="node js" 
+        />
+        <img src="../assets/Angular.png" 
+          class="logo-pics"
+          alt="angular" 
+        />
+        <img src="../assets/Mango-db.png" 
+          class="logo-pics" 
+          alt="mangoDB" 
+        />
       </div>
       <div class="btn-container">
         <div class="btn-projects">
-          <a href="">My Projects</a>
+          <a href="" target="_blank">My Projects</a>
         </div>
-        <div>
-          <a href="">My Resume</a>
+        <div class="btn-projects">
+          <a href="" target="_blank">My Resume</a>
         </div>
       </div>
     </div>
@@ -77,38 +92,60 @@ export default {};
 </script>
 
 <style scoped>
-.main-container {
-  display: flex;
-  flex-direction: row;
-}
-.container-one {
-  background-color: red; /*for sizing test */
-  width: 25%;
-  padding: 2.5%;
-}
-.container-two {
-  background-color: greenyellow;  /* for sizing test */
-  width: 75%;
-}
-/* a {
+  .main-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .container-one {
+    width: 30%;
+    padding: 2.5%;
+  }
+  .container-two {
+    width: 70%;
+  }
+  a {
     text-decoration: none;
-  } */
+  }
 
-h1,
-h2,
-p {
-  color: #fff;
-}
-.pic {
-  height: 5rem;
-  width: 5rem;
-  border-radius: 50%;
-}
-.logo-pics {
-  height: 40px;
-}
-.name {
-  font-family: 'Dancing Script', cursive;
-  font-size: 32px;
-}
+  h1,
+  h2,
+  p {
+    color: #fff;
+  }
+  .pic {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+  }
+  .logo-pics {
+    height: 40px;
+  }
+  .name {
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+  }
+  .about-me {
+    text-align: left;
+  }
+  
+  .technology-section .logo-pics {
+    height: 3.5rem;
+    margin: 1%;
+  }
+  .btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    color: #fff;
+  }
+  .btn-projects {
+    margin-top: 5%;
+    background-color: #7c58ff;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 15px;
+  }
+  .btn-projects a {
+    color: #fff;
+  }
 </style>
