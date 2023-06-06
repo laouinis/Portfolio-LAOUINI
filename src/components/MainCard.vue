@@ -98,7 +98,7 @@ export default {};
     margin: 5%;
   }
   .container-one {
-    width: 30%;
+    width: 20%;
     padding: 2.5%;
   }
   .container-two {
