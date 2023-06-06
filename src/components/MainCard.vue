@@ -120,8 +120,9 @@ p {
   text-align: left;
 }
 p {
-  font-family: 'Lobster Two', cursive;
-  font-size: 22px;
+  /* font-family: 'Lobster Two', cursive; */
+  font-family: 'Parisienne', cursive;
+  font-size: 32px;
 }
 .technology-section .logo-pics {
   height: 3.5rem;
