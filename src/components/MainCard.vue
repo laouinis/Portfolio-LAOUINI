@@ -95,6 +95,7 @@ export default {};
   .main-container {
     display: flex;
     flex-direction: row;
+    margin: 5%;
   }
   .container-one {
     width: 30%;
