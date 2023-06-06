@@ -137,11 +137,12 @@ export default {};
     flex-direction: row;
     justify-content: center;    
     color: #fff;
+    margin-top: 10px;
   }
   .btn-projects {
     margin-top: 5%;
     background-color: #7c58ff;
-    margin: 5px;
+    margin: 10px;
     padding: 5px 10px;
     border-radius: 15px;
   }
