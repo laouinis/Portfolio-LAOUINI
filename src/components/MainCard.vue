@@ -119,7 +119,10 @@ p {
 .about-me {
   text-align: left;
 }
-
+p {
+  font-family: 'Lobster Two', cursive;
+  font-size: 22px;
+}
 .technology-section .logo-pics {
   height: 3.5rem;
   margin: 1%;
