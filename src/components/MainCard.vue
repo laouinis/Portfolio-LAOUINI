@@ -4,7 +4,7 @@
     <div class="container-one">
       <div class="profile">
         <img src="../assets/Me.png" class="pic" alt="photo" />
-        <h1 class="name">LAOUINI Slim</h1>
+        <h1 class="title">LAOUINI Slim</h1>
         <p>Junior Fullstack Developer</p>
         <p>Valenciennes, North of France</p>
         <div class="social-links">
@@ -31,7 +31,7 @@
     </div>
     <div class="container-two">
       <div class="about-me">
-        <h2>About Me</h2>
+        <h2 class="title">About Me</h2>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium
           libero pariatur ab repellat, recusandae repellendus sapiente
@@ -48,15 +48,20 @@
         </p>
       </div>
       <div class="technology-section">
-        <h2>Technologies Studied</h2>
-        <img src="../assets/html5.png" 
-          class="logo-pics" 
-          alt="html5" 
-        />
-        <img src="../assets/CSS3.png" 
+        <h2 class="title">Technologies Studied</h2>
+        <a href="">
+          <img src="../assets/html5.png" 
+            class="logo-pics" 
+            alt="html5" 
+          />
+        </a>
+        <a href="">
+          <img src="../assets/CSS3.png" 
           class="logo-pics" 
           alt="css3" 
         />
+        </a>
+
         <img
           src="../assets/JavaScript-logo.png"
           class="logo-pics"
@@ -121,8 +126,9 @@ export default {};
   .logo-pics {
     height: 40px;
   }
-  .name {
+  .title {
     font-family: 'Dancing Script', cursive;
+    color: red;
     font-size: 32px;
   }
   .about-me {
