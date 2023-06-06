@@ -50,16 +50,10 @@
       <div class="technology-section">
         <h2 class="title">Technologies Studied</h2>
         <a href="">
-          <img src="../assets/html5.png" 
-            class="logo-pics" 
-            alt="html5" 
-          />
+          <img src="../assets/html5.png" class="logo-pics" alt="html5" />
         </a>
         <a href="">
-          <img src="../assets/CSS3.png" 
-          class="logo-pics" 
-          alt="css3" 
-        />
+          <img src="../assets/CSS3.png" class="logo-pics" alt="css3" />
         </a>
 
         <img
@@ -67,18 +61,9 @@
           class="logo-pics"
           alt="javascript"
         />
-        <img src="../assets/NJS.png" 
-          class="logo-pics" 
-          alt="node js" 
-        />
-        <img src="../assets/Angular.png" 
-          class="logo-pics"
-          alt="angular" 
-        />
-        <img src="../assets/Mango-db.png" 
-          class="logo-pics" 
-          alt="mangoDB" 
-        />
+        <img src="../assets/NJS.png" class="logo-pics" alt="node js" />
+        <img src="../assets/Angular.png" class="logo-pics" alt="angular" />
+        <img src="../assets/Mango-db.png" class="logo-pics" alt="mangoDB" />
       </div>
       <div class="btn-container">
         <div class="btn-projects">
@@ -97,63 +82,63 @@ export default {};
 </script>
 
 <style scoped>
-  .main-container {
-    display: flex;
-    flex-direction: row;
-    margin: 5%;
-  }
-  .container-one {
-    width: 20%;
-    padding: 2.5%;
-  }
-  .container-two {
-    width: 70%;
-  }
-  a {
-    text-decoration: none;
-  }
+.main-container {
+  display: flex;
+  flex-direction: row;
+  margin: 5%;
+}
+.container-one {
+  width: 20%;
+  padding: 2.5%;
+}
+.container-two {
+  width: 70%;
+}
+a {
+  text-decoration: none;
+}
 
-  h1,
-  h2,
-  p {
-    color: #fff;
-  }
-  .pic {
-    height: 5rem;
-    width: 5rem;
-    border-radius: 50%;
-  }
-  .logo-pics {
-    height: 40px;
-  }
-  .title {
-    font-family: 'Dancing Script', cursive;
-    color: red;
-    font-size: 32px;
-  }
-  .about-me {
-    text-align: left;
-  }
-  
-  .technology-section .logo-pics {
-    height: 3.5rem;
-    margin: 1%;
-  }
-  .btn-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;    
-    color: #fff;
-    margin-top: 10px;
-  }
-  .btn-projects {
-    margin-top: 5%;
-    background-color: #7c58ff;
-    margin: 10px;
-    padding: 5px 10px;
-    border-radius: 15px;
-  }
-  .btn-projects a {
-    color: #fff;
-  }
+h1,
+h2,
+p {
+  color: #fff;
+}
+.pic {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+.logo-pics {
+  height: 40px;
+}
+.title {
+  font-family: "Dancing Script", cursive;
+  color: red;
+  font-size: 32px;
+}
+.about-me {
+  text-align: left;
+}
+
+.technology-section .logo-pics {
+  height: 3.5rem;
+  margin: 1%;
+}
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #fff;
+  margin-top: 10px;
+}
+.btn-projects {
+  margin-top: 5%;
+  background-color: #7c58ff;
+  margin: 10px;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+.btn-projects a {
+  color: #fff;
+}
 </style>
