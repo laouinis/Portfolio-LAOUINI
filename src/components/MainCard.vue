@@ -6,7 +6,8 @@
         <img src="../assets/Me.png" class="pic" alt="photo" />
         <h1 class="title">LAOUINI Slim</h1>
         <p>Junior Fullstack Developer</p>
-        <p>Valenciennes, North of France</p>
+        <p>Valenciennes</p>
+        <p>North of France</p>
         <div class="social-links">
           <div class="link">
             <a href="https://github.com/laouinis/" target="_blank">
@@ -18,7 +19,10 @@
             </a>
           </div>
           <div class="link">
-            <a href="https://www.linkedin.com/feed/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/slim-laouini-274467a7?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BrAMp4ZTDTbCFkPWudULWcw%3D%3D"
+              target="_blank"
+            >
               <img
                 src="../assets/LinkedIn-logo.png"
                 class="logo-pics"
@@ -121,7 +125,7 @@ p {
 }
 p {
   /* font-family: 'Lobster Two', cursive; */
-  font-family: 'Parisienne', cursive;
+  font-family: "Parisienne", cursive;
   font-size: 32px;
 }
 .technology-section .logo-pics {
@@ -129,8 +133,9 @@ p {
   margin: 1%;
 }
 .btn-container {
-  font-family: 'Parisienne', cursive;
+  font-family: "Parisienne", cursive;
   font-size: 22px;
+  font-weight: bold;
   display: flex;
   flex-direction: row;
   justify-content: center;
