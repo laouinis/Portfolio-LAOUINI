@@ -129,6 +129,8 @@ p {
   margin: 1%;
 }
 .btn-container {
+  font-family: 'Parisienne', cursive;
+  font-size: 22px;
   display: flex;
   flex-direction: row;
   justify-content: center;
